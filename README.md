@@ -1,30 +1,27 @@
-# Quiz App
+# QuizWale
 
-It is an Android app that consists of a quiz, with questions related to the flags of different countries.
+QuizWale is an Android-based quiz application that allows users to choose from multiple categories and answer a series of questions. It provides a fun way to test knowledge across different topics like History, Geography, Space, and Sports. 
 
-The app consists of 3 screens. On the first screen, the user informs his name, before starting the quiz. The second screen displays the questions, which will change as the user answers one question and moves on to the next.
+## Features
 
-## Screenshots
+- **Multiple Categories**: Users can select from a variety of quiz categories such as History, Geography, Space, and Sports.
+- **Dynamic Questioning**: The app ensures that no question is repeated within a single quiz session.
+- **Category Selection via CardViews**: Easy navigation through categories using Android CardView layouts.
+- **Answer Tracking**: Tracks answered questions and provides a way to track quiz progress.
+  
+## Technologies Used
 
-![Screenshot 1](/screenshots/screenshot-1.png)
-![Screenshot 2](/screenshots/screenshot-2.png)
+- **Android**: The application is built using Android with Java/Kotlin.
+- **UI Components**: Layouts are designed with XML, using components such as:
+  - **CardView**: For category selection.
+  - **TextView**: To display questions.
+  - **Button**: To submit answers.
+  - **RecyclerView**: (Optional) For list views or question navigation.
+  
+## Setup Instructions
 
-# Demo on YouTube
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-username/quizwale.git
+    ```
 
-If you want to see this app running, click on image below to take a look on a demo illustrated in a YouTube video:
-
-[![Screenshot Video](/screenshots/screenshot.png)](https://youtu.be/92zOdc_qVK4)
-
-## Author
-
-<a href="https://www.walissonsilva.com">
- <img style="border-radius: 50px;" src="https://avatars.githubusercontent.com/u/13500056?v=4" width="100px;" alt=""/>
- <br />
- <b>Walisson Silva</b></a>
-
-Made with ❤️ by Walisson Silva 👋🏽
-
-Contact me!
-
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-WalissonSilva-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/walissonsilva/)](https://www.linkedin.com/in/walissonsilva/)
-[![Gmail Badge](https://img.shields.io/badge/-walissonsilva10@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:walissonsilva10@gmail.com)](mailto:walissonsilva10@gmail.com)
